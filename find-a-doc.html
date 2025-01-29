@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find a Doctor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="find-a-doc.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <img src="logo-placeholder.png" alt="Health Logo" class="logo">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Find a Doctor</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <button class="appointment-btn">Book Appointment</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="doctor-search-section">
+      <div class="container">
+        <h1>Find a Doctor</h1>
+        <div class="search-filters">
+          <input type="search" class="search-bar" placeholder="Search doctor by name">
+          <select class="filter-select">
+            <option value="">Filter by Hospital</option>
+            <option value="Hospital A">Hospital A</option>
+            <option value="Hospital B">Hospital B</option>
+          </select>
+          <select class="filter-select">
+            <option value="">Filter by Speciality</option>
+            <option value="Cardiology">Cardiology</option>
+            <option value="Neurology">Neurology</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="doctor-grid">
+      <div class="container">
+        <div class="doctor-card">
+          <img src="doctor-placeholder.jpg" alt="Dr. Anoop Misra" class="doctor-img">
+          <h2>Dr. Anoop Misra</h2>
+          <p>Diabetology/Endocrinology</p>
+          <p>40 Years Experience | ₹2500 Fees</p>
+          <div class="card-actions">
+            <button class="profile-btn">View Full Profile</button>
+            <button class="appointment-btn">Book Appointment</button>
+          </div>
+        </div>
+
+        <div class="doctor-card">
+          <img src="doctor-placeholder.jpg" alt="Dr. Manjinder Sandhu" class="doctor-img">
+          <h2>Dr. Manjinder Sandhu</h2>
+          <p>Cardiac Sciences</p>
+          <p>35 Years Experience | ₹2000 Fees</p>
+          <div class="card-actions">
+            <button class="profile-btn">View Full Profile</button>
+            <button class="appointment-btn">Book Appointment</button>
+          </div>
+        </div>
+
+        <div class="doctor-card">
+          <img src="doctor-placeholder.jpg" alt="Dr. Ajay Kaul" class="doctor-img">
+          <h2>Dr. Ajay Kaul</h2>
+          <p>Cardiac Sciences</p>
+          <p>40 Years Experience | ₹3000 Fees</p>
+          <div class="card-actions">
+            <button class="profile-btn">View Full Profile</button>
+            <button class="appointment-btn">Book Appointment</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Health Management. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
